@@ -1,0 +1,107 @@
+/* Body */
+body {font-family: "Roboto", sans-serif; }
+a {font-weight: bold; }
+
+/* Navbar */
+.navbar {background-color: #25499F; }
+.navbar i {color: gray; font-size: 1.7rem; padding: 10%; }
+.nav-link {color: #fff; font-weight: bold; text-align: center; }
+.nav-link:hover {color: #497BED; }
+.login a:hover {color: #fff; }
+
+/* Home */
+.home {padding: 10% 0; text-align: center; }
+.home h1, .home h4 {color: #fff; }
+.home h1 {font-size: 3.75rem; font-weight: bold; padding: 6% 0 3%;}
+.home img {width: 100%; padding: 6% 0; }
+
+/* Features */
+.features {text-align: center;}
+.features .row {padding: 0 0 10%; }
+.features span {color: #4A7AEC; font-size: 3.75rem;}
+/* font-weight: bold; */
+.features span, .features h4, .features p {font-weight: bold; }
+.features .one, .features .three, .features p {color: rgba(0, 0, 0, 0.3); }
+.features a {background-color: #4A7AEC; color: #fff; font-weight: 900; font-size: 0.8rem; padding: 12px 30px; }
+
+/* Clients */
+.clients {text-align: center; padding: 10% 0; }
+.clients span {color: rgba(0, 0, 0, 0.3); font-weight: bold; font-size: 0.75rem; letter-spacing: 2px;}
+.clients h2 {font-weight: bold; font-size: 2.5rem; color: rgba(0, 0, 0, 0.7); }
+.clients img {padding: 4%; }
+
+/* Clients-2 */
+.clients-2 {background-color: #211B31; color: #fff; padding: 7% 0; }
+.features-image {margin: 38% 0% -24% -15%; }
+/* Media query */
+@media (max-width: 1024px) { .features-image {margin: 0; } }
+.clients-2 img {width: 100%; }
+.clients-2 .first-span {color: rgba(255, 255, 255, 0.7); font-weight: bold; font-size: 0.75rem; letter-spacing: 2px;}
+.clients-2 h2 {font-size: 2.5rem; font-weight: bold; padding: 2% 0 10%; }
+.clients-2 p, .clients-2 .second-span {font-weight: bold; color: rgba(255, 255, 255, 0.6); font-size: 15px; line-height: 1.9; padding: 0 0 7%; }
+.percentage {color: #4A7AEC; }
+.progress {height: 5px; }
+.progress-bar {background-color: #4A7AEC; }
+
+/* services */
+.services {padding: 10% 0 5%; text-align: center; }
+.services .car {padding: 0 2%}
+/* Media query */
+@media (max-width: 425px) { .services .car {padding: 0 7% } }
+.services img {margin: 0 0 14%; }
+.services h4 {font-weight: bold; color: rgba(0, 0, 0, 0.7); margin: 0 0 12%;}
+.services p {color: rgba(0, 0, 0, 0.3); font-weight: bold; font-size: 0.93rem; line-height: 1.9; margin: 0 0 25%; }
+
+/* Work */
+.work {text-align: center; padding: 5% 0; }
+.work span {color: rgba(0, 0, 0, 0.3); font-weight: 900; font-size: 0.75rem; letter-spacing: 2px; }
+.work h2 {font-size: 2.5rem; color: rgba(0, 0, 0, 0.7); font-weight: 900; padding: 1% 0 7%; }
+.work .links {padding: 0 0 8%; }
+.work .links a {color: rgba(0, 0, 0, 0.3); padding: 0 15px; font-size: 0.95rem; }
+.work .links a:hover {color: #4A7AEC; }
+.work img {width: 100%; }
+.work .col-lg-3, .work .col-md-6 {padding-left: 0; padding-right: 0;}
+
+/* Workflow */
+.workflow {padding: 5% 0 10%; text-align: center; }
+.workflow span {color: rgba(0, 0, 0, 0.3); font-weight: 900; font-size: 0.75rem; letter-spacing: 2px; }
+.workflow h2 {font-size: 2.5rem; color: rgba(0, 0, 0, 0.7); font-weight: 900; padding: 1% 0 7%; }
+.workflow h4, .workflow p {text-align: left; }
+.workflow h4 {font-weight: bold; color: rgba(0, 0, 0, 0.7); margin: 0 0 12%; }
+.workflow p {color: rgba(0, 0, 0, 0.3); font-weight: bold; font-size: 0.93rem; }
+.workflow .car {padding: 0 1%; }
+/* Media query */
+@media (max-width: 425px) { .workflow .car {padding: 5%; } }
+@media (width: 768px) { .workflow .car {padding: 0%; } }
+.workflow .number {color: #000; font-size: 1rem; background-color: rgba(0, 0, 0, 0.05); padding: 3% 4%; border-radius: 50%; }
+.workflow img {width: 100%; margin: -7%; }
+/* Media query */
+@media (max-width: 1024px) { .workflow img {margin: 0; } }
+
+/* cta */
+.cta {text-align: center; color: #fff; padding: 10% 0; background-attachment: fixed; position: relative; z-index: 1; }
+.cta span, .cta h2 {background-color: rgba(33, 27, 49, .7);}
+.bg-img {background-position: center center; background-size: cover; position: static; }
+.cta span {color: rgba(255, 255, 255, 0.8); font-weight: 900; font-size: 0.75rem; letter-spacing: 2px; padding: 4px; }
+.cta h2 {font-size: 2.5rem; font-weight: 900; }
+.cta a {background-color: #4A7AEC; font-weight: 900; font-size: 0.8rem; padding: 12px 30px;}
+
+/* Footer */
+.footer {background: #211B31; color: #fff; padding: 7% 0; }
+.footer .logo {padding: 0 0 20%; }
+.footer p {color: rgba(255, 255, 255, 0.6); font-weight: bold; font-size: 0.93rem; line-height: 2; }
+.footer h5 {padding-bottom: 15%; font-weight: 900; }
+/* Media query */
+@media (max-width: 768px) { .footer h5, .footer .logo {padding: 15% 0 7%; } }
+.footer .fast-links a {color: rgba(255, 255, 255, 0.3); line-height: 2.3; }
+.footer .fast-links a:hover {color: #fff; }
+.footer .one {color: rgba(255, 255, 255, 0.6); font-size: 0.8rem; }
+.footer .two {color: rgba(255, 255, 255, 0.15); font-size: 0.9rem; font-weight: bold; display: block; margin: 5px 0 20px; }
+
+
+/* Last footer */
+.last-footer {background: #191426; color: #fff; padding: 1% 0; }
+.last-footer span {color: rgba(255, 255, 255, 0.6); font-size: 0.8rem; padding: 1% 0; display: inline-block; }
+.last-footer a {color: rgba(255, 255, 255, 0.6);}
+.last-footer .icons i {padding: 10px 15px; font-size: 0.75rem; }
+.last-footer .yusuf {color: #fff; font-size: 1rem; }
